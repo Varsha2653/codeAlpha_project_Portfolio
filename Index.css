@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------Home------------ */
+html {
+    scroll-behavior: smooth;
+}
+
+.background {
+    background: rgb(0, 0, 0, 0.3);
+    background-image: url(Blue\ Glaxy.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: aliceblue;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+
+}
+
+.navright {
+    padding: 15px 20px;
+    justify-content: right;
+    text-shadow: none;
+    background: linear-gradient(to right, whitesmoke 58%, blue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.nav-list {
+    font-family: 'Agdasima', sans-serif;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-list li a:hover {
+    color: rgb(41, 201, 245);
+}
+
+.nav-list li {
+    padding: 15px 30px;
+}
+
+.nav-list li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+}
+
+.fist {
+    font-family: 'Belanosima', sans-serif;
+    margin: 240px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fist .one {
+    color: orange;
+    font-size: 90px;
+    padding-right: 5px;
+    padding-left: 130px;
+}
+
+.fist .two {
+    padding: 35px 0px;
+    font-size: 50px;
+}
+
+.fist .three {
+    color: rgb(0, 132, 255);
+    font-size: 90px;
+    margin-top: 85px;
+    margin-left: -470px;
+}
+
+.Png img {
+    margin-right: 80px;
+    margin-top: 64px;
+    text-align: right;
+    justify-content: right;
+    height: 680px;
+}
+
+/* ----------About Me---------- */
+.mainRight {
+    padding: 100px;
+    display: flex;
+    height: 150px;
+    max-width: 60%;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.mainLeft {
+    padding: 100px;
+    display: flex;
+    height: 150px;
+    max-width: 70%;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.first-Half {
+    padding: 10px 30px;
+}
+
+.section-fist {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #9c0cf0;
+    font-size: 40px;
+    text-align: left;
+}
+
+.section-second {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.second-half img {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+
+.BG {
+    background: rgb(0, 0, 0, 0.7);
+    background-image: url(Space.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: whitesmoke;
+    height: 800px;
+}
+
+/* -----------Education---------- */
+
+.bbk {
+    display: flex;
+    flex-direction: row-reverse;
+    background: rgb(0, 0, 0, 0.2);
+    background-image: url(Blue.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 780px;
+}
+
+img {
+    left: 10%;
+    height: 700px;
+}
+
+.mainbox {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.mainRt {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.mainLt {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    height: 200x;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.head {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #9c0cf0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.subhead {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 119, 255);
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+.sub {
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 20px;
+    margin: auto;
+}
+
+br {
+    margin: 2px;
+}
+
+/* ----------Contact--------- */
+
+.container {
+    background: rgb(0, 0, 0, 0.7);
+    background-image: url(Blue\ 2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 7vh 7vh;
+    height: 600px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+}
+
+h1 {
+    color: #9c0cf0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid bisque;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(43, 0, 255);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    resize: vertical;
+}
+
+.box {
+    padding-left: 20px;
+    margin-left: 480px;
+    padding-right: 0px;
+    margin-top: 70px;
+}
+
+.text {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background: rgb(0, 0, 0, 0.7);
+    background-image: url(Blue\ 2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: whitesmoke;
+}
