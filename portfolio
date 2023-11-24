@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortoFlio</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar background">
+        <label class="navright">PortoFlio</label>
+        <ul class="nav-list">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About Me">About Me</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="hello background" id="Home">
+        <div class="Main">
+            <div class="fist">
+                <p class="one">Hello! </p>
+                <p class="two">My name is</p>
+                <p class="three">Dora</p>
+            </div>
+            <div class="Png">
+                <img src="http://2.bp.blogspot.com/-Nb2FHXDNL_c/VhnDMNYuY7I/AAAAAAAA-Wo/vAlscuttJzY/s1600/dora%2B3%2Bhr.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <section class="BG" id="About Me">
+        <section class="mainRight">
+            <div class="first-Half">
+                <p class="section-fist">About me</p>
+                <p class="section-second">
+                    I'm an dedicated student pursuing currently second year of BScIT at VES College. I'm
+                    passionate about the world of technology and eager to expand my knowledge in various areas
+                    of information technology. With my determination and enthusiasm, I'm ready to embark on a
+                    rewarding educational journey.</p>
+            </div>
+            <div class="second-half">
+                <img src="C:\Users\varsh\OneDrive\Desktop\web project\About me.jpg" alt="" srcset="">
+            </div>
+        </section>
+        <section class="mainLeft">
+            <div class="first-Half">
+                <p class="section-fist">Skills</p>
+                <p class="section-second">I wanted to share with you that I've been working really hard to enhance my
+                    skills
+                    in programming. I've got a good grip on languages like C, C++, and JavaScript, along with web
+                    development essentials like HTML and CSS. It's been quite a journey, but I'm determined to keep
+                    pushing
+                    myself and learning more every day. I believe these skills will open up exciting opportunities for
+                    me in
+                    the tech industry. Just wanted to share my progress with you, and I'm excited about what the future
+                    holds!</p>
+            </div>
+            <div class="second-half">
+                <img src="C:\Users\varsh\OneDrive\Desktop\web project\skills.jpg" alt="" srcset="">
+            </div>
+        </section>
+    </section>
+
+    <section class="bbk" id="Education">
+        <img src="https://1.bp.blogspot.com/-soH3M7HRM_o/WlveikDM40I/AAAAAAABOzE/SHveFouCgZs5bJZO7WcotUQRrPeEgnutwCKgBGAs/s1600/Dora%2B4.png" width="350" height="350" alt="" srcset="">
+
+        <div class="mainbox">
+            <p class="head">
+                Education
+            </p>
+            <p class="subhead">
+                B.Sc in Information <br> Technology
+            </p>
+            <p class="sub">
+                VIVEKANAND EDUCATION SOCIETY' S COLLEGE OF ARTS. SCIENCE. AND COMMERCE (AUTONOMOUS) <br>
+                Chembur Mumbai-400074 <br>
+                Currently pursuing Second year <br>
+            </p>
+        </div>
+        <div class="mainRt">
+            <p class="subhead">
+                HSC
+            </p>
+            <p class="sub">
+                SWAMI VIVEKANAND JUNIOR COLLEGE,CHEMBUR,SINDHI SOCIETY
+                (Arts, Science, Commerce ) <br>
+                Completion year : 2020 <br>
+            </p>
+        </div>
+        <div class="mainLt">
+            <p class="subhead">
+                SSC
+            </p>
+            <p class="sub">
+                MODERN ENGLISH SCHOOL <br>
+                CHEDDA NAGAR <br>
+                Completion year : 2020 <br>
+            </p>
+        </div>
+    </section>
+    <div class="container" id="Contact">
+        <h1>Contact Us</h1>
+        <form class="box">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p class="text">
+            Copyright &copy 2027 www.SBI.com - All rights reserved
+        </p>
+    </footer>
+</body>
+
+</html>
